@@ -1,0 +1,191 @@
+body{
+  background-color: #109EBA; 
+  
+}
+#graphics{ 
+  position:absolute;
+  left:65%;
+}
+img{
+
+}
+#scaffold, #head, #torso, #left-arm, #right-arm, #left-leg, #right-leg{
+  position:absolute;
+}
+#head, #torso, #left-arm, #right-arm, #left-leg, #right-leg{
+  opacity: 0.0;
+  
+}
+#scaffold{
+ top: 30px;
+ left: 0px;
+}
+#torso{
+  top: 322px;
+  left: 35px;
+  
+}
+#head{
+  top: 207px;
+  left: 35px;
+}
+#left-arm{
+  top: 323px;
+  right: -38px;
+  
+}
+#right-arm{
+  top: 323px;
+  left: 118px;
+}
+#left-leg{
+  top: 533px; 
+  left: 9px;
+}
+#right-leg{
+  top: 533px;
+  left: 81px; 
+
+}
+#guesses{
+  position:absolute;
+  display: block; 
+  bottom: 22%;
+  left: 2%;
+  width: 62%;
+  height:20%;
+}
+#first_row{
+  position: relative;
+  left: 0%
+}
+
+#second_row{
+  position: relative;
+  left: 2%;
+}
+
+#third_row{
+  position:relative;
+  left: 5%
+}
+#num_guesses_row{
+
+  position: relative;
+  left: 15%;
+  font-size: 200%;
+
+  font-family: 'Source Code Pro', sans-serif;
+
+}
+#phrase{
+  position: absolute;
+  top: 6%; 
+  left: 2%;   
+  width: 60%;
+  height: 50%;
+  background-image:url('/images/computerscreen.png');
+	background-size: 100% 100%;
+}
+#text{
+  position: absolute;
+  top: 25%;
+  left: 20px;
+  height: 80%;
+  width: 80%;
+  padding-left: 10%;
+  
+  white-space:nowrap;
+}
+.word{
+
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.phrase_letter{
+
+  font-size: 200%;
+  color: #D9D5FF;
+  display: inline-block;
+  position: relative;
+  margin: 0.5%;
+  padding: 0.5%;
+
+
+}
+.space{
+
+  padding: 4%;
+  margin: 4%;
+
+}
+.button{
+  
+  position: relative; 
+  margin: 2%;
+  display: inline-block;
+  padding: 1%;
+  border-radius: 15px;
+  font-size: 2em;
+  z-index: 2000;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
+  box-shadow: 2px 2px 2px #000;
+}
+.correct{
+  background-color: green;
+
+
+}
+
+.incorrect{
+
+  background-color: red;
+
+
+}
+#button-bar{
+
+  z-index: 3000;
+  position: absolute;
+  bottom: 12%;
+  left: 46%;
+  width: 10%;
+  height: 5%;
+}
+#newgame input{
+  font-size: 2.5em;
+  font-family: 'Source Code Pro', sans-serif;
+  color: black;
+  background-color: #D0D1D1;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
+  box-shadow: 2px 2px 2px #000;
+
+}
+#status{
+  z-index: 1000;
+    
+  position: absolute;
+  width: 50%;
+  height: 18%;
+  left: 6%;
+  bottom: 10%;
+  font-size: 200%;
+
+  font-family: 'Source Code Pro', sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  opacity: 0.0;
+
+
+}
+#title{
+  position: absolute;
+  color: #FFF;
+  top: 1%;
+  left: 25%;
+  font-size: 2.5em;
+  font-family: 'Source Code Pro', sans-serif;
+}
